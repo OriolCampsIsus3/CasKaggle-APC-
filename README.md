@@ -1,31 +1,26 @@
 # Pràctica Kaggle APC UAB 2022-23
-### Nom: Oriol Camps ### DATASET: *****
-### URL: [kaggle](http://....)
+### Nom: Oriol Camps ### DATASET: Should This Loan be Approved or Denied?
+### URL: https://www.kaggle.com/datasets/mirbektoktogaraev/should-this-loan-be-approved-or-denied
 ## Resum
-El dataset utilitza dades de...
-Tenim X dades amb N atributs. Un % d'ells és categoric / els altres són numérics i estàn normalitzats...
+El dataset utilitza dades del SBA   
+Tenim 899164 dades amb 27 atributs.
 ### Objectius del dataset
-Volem aprender quina és la ...
+L'objectiu es decidir si aprovar o no un prestec a una empresa.
 ## Experiments
 Durant aquesta pràctica hem realitzat diferents experiments.
 ### Preprocessat
-Quines proves hem realitzat que tinguin a veure amb el pre-processat? com han afectat als resultats?
+He fet un processament de dades nan.
 ### Model
 | Model | Hiperparametres | Mètrica | Temps |
 | -- | -- | -- | -- |
-| [Random Forest](link) | 100 Trees, XX | 57% | 100ms |
-| Random Forest | 1000 Trees, XX | 58% | 1000ms |
+| Random Forest | 1000 Trees | 58% | 1000ms |
 | SVM | kernel: lineal C:10 | 58% | 200ms |
 | -- | -- | -- | -- |
 | [model de XXX](link al kaggle) | XXX | 58% | ?ms |
 | [model de XXX](link al kaggle) | XXX | 62% | ?ms |
-## Demo
-Per tal de fer una prova, es pot fer servir amb la següent comanda
-``` python3 demo/demo.py --input here ```
 ## Conclusions
-El millor model que s'ha aconseguit ha estat...
-En comparació amb l'estat de l'art i els altres treballs que hem analitzat....
+El millor model que s'ha aconseguit ha estat el RandomForest
 ## Idees per treballar en un futur
-Crec que seria interesant indagar més en...
+Crec que seria interesant indagar més en les xarxes neuronals i el deep learning ja que crec que pot ser un bon dataset per a experimentar
 ## Llicencia
 El projecte s’ha desenvolupat sota llicència ZZZz.
