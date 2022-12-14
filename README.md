@@ -10,14 +10,15 @@ L'objectiu es decidir si aprovar o no un prestec a una empresa.
 Durant aquesta pràctica hem realitzat diferents experiments.
 ### Preprocessat
 He fet un processament de dades nan.
-### Model
-| Model | Hiperparametres | Mètrica | Temps |
-| -- | -- | -- | -- |
-| Random Forest | 1000 Trees | 58% | 1000ms |
-| SVM | kernel: lineal C:10 | 58% | 200ms |
-| -- | -- | -- | -- |
-| [model de XXX](link al kaggle) | XXX | 58% | ?ms |
-| [model de XXX](link al kaggle) | XXX | 62% | ?ms |
+### Models
+| Model | Hiperparametres | Accuracy |
+| -- | -- | -- |
+| Random Forest | criterion : gini| 92% |
+| Linear SVC | penalty : l2, loss : squared_hinge | 75% |
+| Decision Tree | criterion : gini| 89% |
+| KNN | n_neighbors : 2| 86% |
+| Logistic Regresion | penalty : l1, solver : liblinear | 86% |
+| Red Neuronal | loss : binary_crossentropy, optimizer : adam| 81% |
 ## Conclusions
 El millor model que s'ha aconseguit ha estat el RandomForest
 ## Idees per treballar en un futur
